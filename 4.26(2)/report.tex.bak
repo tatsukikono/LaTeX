@@ -1,0 +1,54 @@
+\documentclass[fleqn, 14pt]{extarticlej}
+\oddsidemargin=-1cm
+\textwidth=18cm
+\textheight=23cm
+\topmargin=0cm
+\headheight=1cm
+\headsep=0cm
+\footskip=0.8cm
+
+\pagestyle{plain}
+\usepackage{ulem}
+\usepackage{indentfirst}
+
+\renewcommand\labelenumi{(\theenumi)}
+\def\descriptionlabel#1{\hspace\labelsep #1}
+
+\makeatletter
+\def\section{\@startsection {section}{1}{\z@}%
+{-3.5ex \@plus -1ex \@minus -.2ex}%
+{2.3ex \@plus.2ex}%
+{\sectionformat}}
+\def\sectionformat{\normalsize}
+\makeatother
+
+\begin{document}
+\setcounter{section}{-1}
+
+
+\begin{center}
+  {\Large {\bf GNグループ新人研修課題報告書}}
+
+\end{center}
+\begin{flushright}
+  2013年 4月 26日\\
+  乃村研究室\\
+  河野 達生
+\end{flushright}
+
+
+\section{概要}
+本文章は平成25年度GNグループの新人研修課題の報告書である．本文章では，課題内容，課題達成度に対する反省について述べる．
+
+\section{課題内容}
+課題は，以下の４点である．
+\begin{description}
+  \hspace{0.5zw}(1) Rubyを使用したプログラミング
+  \hspace{0.5zw}(2) Ruby On Railsを使用したプログラミング
+  \hspace{0.5zw}(3) Gitによるプログラミング
+  \hspace{0.5zw}(4) 資料の書き方
+\end{description}
+
+\section{}
+
+\end{document}

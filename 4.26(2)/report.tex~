@@ -1,0 +1,95 @@
+\documentclass[fleqn, 14pt]{extarticlej}
+\oddsidemargin=-1cm
+\usepackage[dvipdfm]{graphicx}
+\textwidth=18cm
+\textheight=23cm
+\topmargin=0cm
+\headheight=1cm
+\headsep=0cm
+\footskip=1cm
+
+\def\labelenumi{(\theenumi)}
+\def\theenumii{\Alph{enumii}}
+\def\theenumiii{(\alph{enumiii})}
+\usepackage{comment}
+\usepackage{indentfirst}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 表題
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+{\Large {\bf GNグループ新人研修課題報告書}}
+
+\end{center}
+\begin{flushright}
+2013年 4月 26日
+
+乃村研究室 河野 達生
+\end{flushright}
+
+\section{概要}
+本文書は平成25年度GNグループの新人研修課題の報告書である．本文書では，課題内容，課題達成度について述べる．
+
+\section{課題内容}
+\subsection{課題内容の概要}
+課題は，以下の2点である．
+\begin{description}
+  \item[課題1] RubyによるTwitterBotプログラムの作成
+  \item[課題2] Ruby On Railsによる商品管理プログラムの作成
+\end{description}
+以降の節でそれぞれの課題について述べる．
+
+\subsection{RubyによるTwitterBotプログラムの作成}
+RubyによるTwitterBotプログラムの機能は以下の2つである．
+\begin{enumerate}
+\item 任意の文字列をツイートする機能
+\item ツイートを受信する機能
+\end{enumerate}
+
+
+\subsection{Ruby On Railsによる商品管理プログラムの作成}
+Rubyによる商品管理プログラムの課題は以下の2つである．
+\begin{enumerate}
+\item Ruby on Rails，MVCに関する勉強会に参加する．
+\item「RailsによるアジャイルWebアプリケーション開発 第4版」[1]の5章から9章までの内容を読み進め，商品管理プログラムを実装する．
+\end{enumerate}
+
+\section{課題達成度}
+課題の達成度として，理解できなかった部分，作成できなかった機能，および自主的に作成した機能の3点について述べる．
+
+\subsection{理解できなかった部分}
+課題2において，「RailsによるアジャイルWebアプリケーション開発 第4版」の本の内容に従い進めていった．このため，どこのファイルを変更するとどこに反映されるかの理解はできたが，プログラムの内容については理解が浅いと感じる．
+\subsection{作成できなかった機能}
+本課題において，作成できなかった機能を以下に述べる．
+\begin{enumerate}
+  \item 課題1に対して作成できなかった機能
+   \begin{enumerate}
+    \item  検討打合せの3日前に打合せの予定をツイート
+    \item  雨が降る日にツイート
+    \item  nomlaballへのメールが流れたらツイート
+    \item  乃村先生の出張時にツイート
+    \item  欠席・遅刻をツイート
+   \end{enumerate}
+ \item 課題2に対して作成できなかった機能
+   \begin{enumerate}
+   \item  新しい変数をセッションに加えて，ユーザが何回storeコントローラのindexにアクションしたか記録する．
+   \item 上記のカウンタをテンプレートに渡して，カタログページの上部に表示する．
+   \item ユーザがカートに何かを入れた時にカウンタが0にリセットされるようにする．
+   \item isbnを用いて，Amazonから情報を取得して，商品を登録する．
+   \end{enumerate}
+\end{enumerate}
+
+\subsection{自主的に作成した機能}
+\begin{enumerate}
+ \item 本課題において，自主的に作成した機能を以下に述べる．
+   \begin{enumerate}
+   \item 乃村研のメンバの誕生日をツイートで知らせる機能
+   \item 課題1のプログラム実行時に，birth.ymlがない場合，プログラムを終了させる機能
+   \end{enumerate}
+\end{enumerate}
+
+\begin{thebibliography}{99}
+  \bibitem {book1} Ruby.S, Thomas.D, Hansson.D, et al:RailsによるアジャイルWebアプリケーション開発 pp.55-109 第4版(2011)\\
+\end{thebibliography}
+
+\end{document}
