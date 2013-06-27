@@ -1,0 +1,93 @@
+\documentclass[fleqn, 14pt]{extarticlej}
+\oddsidemargin=-1cm
+\usepackage[dvipdfm]{graphicx}
+\textwidth=18cm
+\textheight=23cm
+\topmargin=0cm
+\headheight=1cm
+\headsep=0cm
+\footskip=1cm
+
+\def\labelenumi{(\theenumi)}
+\def\theenumii{\Alph{enumii}}
+\def\theenumiii{(\alph{enumiii})}
+\usepackage{comment}
+\usepackage{indentfirst}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 表題
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+{\Large {\bf カレンダの整理}}
+\end{center}
+
+\begin{flushright}
+2013年6月27日
+
+乃村研究室 河野 達生
+\end{flushright}
+
+\section{整理の定義}
+整理とは，同種のオブジェクトをなんらかの基準で並べることである．または，無駄なもの，不要なものを処分することである[1]．これを整理の定義とする．本資料は，整理の定義にもとづいてカレンダの整理について述べる．
+
+\section{カレンダにおける整理}
+カレンダにおける整理の対象は，カレンダに登録されている予定のことである．カレンダに登録されている予定をどのように扱うかについて述べる．
+
+\subsection{整理されていない状態}
+整理されていない状態とは，時系列に並んでいるカレンダの状態である．つまり，カレンダに予定を登録された本来の状態のことを指す．
+
+\subsection{整理された状態}
+整理された状態とは，ユーザが知りたい情報を素早く得ることができる状態である．情報を素早く得るために，時系列以外でも扱えることが理想的である．
+
+\section{整理項目}
+カレンダの予定の整理を行うための整理項目を以下に述べる．
+\begin{enumerate}
+\item 検討\\
+  カレンダの予定に対して，整理する必要があるかどうか検討する．予定として不定期かつ頻度の少ないと考えられるものは整理の対象外と判断される．例，結婚式，葬式．
+  
+\item 集合の作成\\
+  整理を行う対象群の中から，大きな粒度での集合の作成を行う．集合を作成する手順を以下に示す．
+  \begin{enumerate}
+  \item 名前\\
+    作成された集合に適切な名前を付けることにより，今後の整理を支援できる．
+  \item 所属別の集合\\
+    所属別の集合がユーザにとって最も大きな粒度と考えられる．所属が1つしかない場合は，この集合を作成する意味はない．
+  \item 関連性のある集合\\
+    所属別の集合の中で，関連性のある予定を新たな集合として作成できる．
+  \end{enumerate}
+  上記の整理項目を整理の一連の流れとする．この一連の流れを繰り返し行うことで，集合の中のオブジェクトが増えていく可能性がある．これにより増えた集合内で再整理できるため，集合を整理の対象群とし整理を行う．例を図3に示す．
+  
+\end{enumerate}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[clip,width=0.7\columnwidth]{zu1.eps}
+    \caption{検討によって集合を作成する例}
+  \end{center}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[clip,width=0.7\columnwidth]{zu2.eps}
+    \caption{大きな粒度からの集合を作成する例}
+  \end{center}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[clip,width=0.7\columnwidth]{zu3.eps}
+    \caption{再整理の例}
+  \end{center}
+\end{figure}
+
+
+\section{まとめ}
+本資料は，整理の定義にもとづいてカレンダの予定の整理について述べたものである．整理の定義を明確にしたうえで，今後自身の研究対象について整理を考察していく．
+
+\begin{thebibliography}{99}
+  \bibitem {book1}小学館:コトバンク,デジタル大辞泉,入手先<http://kotobank.jp/word/%E6%95%B4%E7%90%86>(参照2013-06-19).
+\end{thebibliography}
+
+
+
+\end{document}
